@@ -1,6 +1,4 @@
-
 import { ArrowDown } from 'lucide-react';
-
 export const HeroSection = () => {
   const scrollToNext = () => {
     const nextSection = document.getElementById('section-2');
@@ -8,21 +6,12 @@ export const HeroSection = () => {
       behavior: 'smooth'
     });
   };
-
-  return (
-    <section className="min-h-screen flex items-center justify-center section-snap relative bg-gradient-to-br from-vanguardia-dark via-gray-900 to-vanguardia-dark">
+  return <section className="min-h-screen flex items-center justify-center section-snap relative bg-gradient-to-br from-vanguardia-dark via-gray-900 to-vanguardia-dark">
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-up">
           {/* Logo da Vanguardia */}
           <div className="mb-12">
-            <img 
-              src="/lovable-uploads/3394efe0-4e7b-4bc8-aadd-85999003121f.png" 
-              alt="Vanguardia Logo" 
-              className="h-20 md:h-24 lg:h-28 mx-auto mb-8"
-              style={{
-                filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)'
-              }}
-            />
+            
           </div>
           
           <div className="mb-8">
@@ -49,6 +38,5 @@ export const HeroSection = () => {
       <button onClick={scrollToNext} className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-vanguardia-green hover:text-emerald-400 transition-colors animate-bounce" aria-label="Scroll para próxima seção">
         <ArrowDown size={32} />
       </button>
-    </section>
-  );
+    </section>;
 };
