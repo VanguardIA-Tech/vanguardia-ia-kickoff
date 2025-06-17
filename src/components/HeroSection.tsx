@@ -1,3 +1,4 @@
+
 import { ArrowDown } from 'lucide-react';
 export const HeroSection = () => {
   const scrollToNext = () => {
@@ -11,7 +12,11 @@ export const HeroSection = () => {
         <div className="animate-fade-up">
           {/* Logo da Vanguardia */}
           <div className="mb-12">
-            
+            <img 
+              src="/lovable-uploads/8808d21c-8d70-4941-9a10-aaee8ddc9983.png" 
+              alt="Vanguardia Logo" 
+              className="h-24 md:h-32 mx-auto filter brightness-0 invert"
+            />
           </div>
           
           <div className="mb-8">

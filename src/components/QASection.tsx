@@ -1,3 +1,4 @@
+
 export const QASection = () => {
   return <section id="section-16" className="min-h-screen flex items-center justify-center section-snap bg-gradient-to-b from-gray-900 to-vanguardia-dark">
       <div className="container mx-auto px-6">
@@ -25,7 +26,11 @@ export const QASection = () => {
           
           {/* Logo da Vanguardia */}
           <div className="mt-16 animate-fade-up">
-            
+            <img 
+              src="/lovable-uploads/8808d21c-8d70-4941-9a10-aaee8ddc9983.png" 
+              alt="Vanguardia Logo" 
+              className="h-20 md:h-24 mx-auto filter brightness-0 invert"
+            />
           </div>
         </div>
       </div>
