@@ -22,9 +22,8 @@ export const MetricsSection = () => {
     <section id="section-14" className="min-h-screen flex items-center justify-center section-snap bg-vanguardia-dark">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-up">
-          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">14 ·</span>
+          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">11</span>
           <h2 className="heading-lg mb-8">Métricas de Sucesso</h2>
-          <span className="bg-vanguardia-green/20 text-vanguardia-green px-4 py-2 rounded-full text-sm font-semibold">(top 3)</span>
         </div>
 
         <div className="max-w-6xl mx-auto">

@@ -27,7 +27,7 @@ export const ParticipationSection = () => {
     <section id="section-13" className="min-h-screen flex items-center justify-center section-snap bg-gradient-to-b from-vanguardia-dark to-gray-900">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-up">
-          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">13 ·</span>
+          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">10</span>
           <h2 className="heading-lg mb-8">Expectativas de Participação</h2>
         </div>
 

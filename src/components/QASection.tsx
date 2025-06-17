@@ -3,7 +3,7 @@ export const QASection = () => {
   return <section id="section-16" className="min-h-screen flex items-center justify-center section-snap bg-gradient-to-b from-gray-900 to-vanguardia-dark">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-up">
-          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">16 ·</span>
+          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">12</span>
           <h2 className="heading-lg mb-12">Perguntas & Contribuições</h2>
         </div>
 
@@ -13,15 +13,7 @@ export const QASection = () => {
             <blockquote className="text-2xl md:text-3xl text-gray-200 italic mb-8 leading-relaxed">
               "A inovação é coletiva — nenhuma pergunta é pequena. Qual dúvida podemos esclarecer agora?"
             </blockquote>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
-              <button className="bg-vanguardia-green hover:bg-emerald-600 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105">
-                💬 Fazer Pergunta
-              </button>
-              <button className="bg-transparent border-2 border-vanguardia-green text-vanguardia-green hover:bg-vanguardia-green hover:text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300">
-                📋 Compartilhar Feedback
-              </button>
-            </div>
+          
           </div>
           
           {/* Logo da Vanguardia */}

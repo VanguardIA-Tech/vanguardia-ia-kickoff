@@ -19,8 +19,8 @@ export const HeroSection = () => {
             />
           </div>
           
-          <div className="mb-8">
-            <span className="mono-text text-xl tracking-wider text-emerald-300">Silveira, Athias, Soriano de Mello, Bentes, Lobato & Scaff - Advogados</span>
+          <div className="mb-20">
+            <span className="mono-text text-xl tracking-wider ">Silveira, Athias, Soriano de Mello, Bentes, Lobato & Scaff - Advogados</span>
           </div>
           
           <h1 className="heading-xl mb-8 bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">

@@ -22,7 +22,7 @@ export const ROISection = () => {
     <section id="section-8" className="min-h-screen flex items-center justify-center section-snap bg-gradient-to-b from-gray-900 to-vanguardia-dark">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-up">
-          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">8 ·</span>
+          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">8</span>
           <h2 className="heading-lg mb-8">Retorno Esperado</h2>
         </div>
 

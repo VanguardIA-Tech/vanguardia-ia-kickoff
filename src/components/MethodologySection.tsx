@@ -1,4 +1,3 @@
-
 export const MethodologySection = () => {
   const steps = [
     {
@@ -25,25 +24,26 @@ export const MethodologySection = () => {
     <section id="section-5" className="min-h-screen flex items-center justify-center section-snap bg-vanguardia-dark">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-up">
-          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">5 ·</span>
+          <span className="mono-text text-vanguardia-green text-xl tracking-wider mb-4 block">5</span>
           <h2 className="heading-lg mb-8">Metodologia CNH da IA</h2>
-          <div className="text-6xl mb-8">🚗</div>
         </div>
 
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-3 gap-8 mb-12 h-full">
             {steps.map((step, index) => (
               <div 
                 key={index}
-                className="text-center animate-fade-up"
+                className="text-center animate-fade-up h-full flex flex-col justify-between"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
-                <div className="bg-gradient-to-br from-vanguardia-green to-emerald-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-white font-poppins font-bold text-3xl">{step.letter}</span>
+                <div>
+                  <div className="bg-gradient-to-br from-vanguardia-green to-emerald-500 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span className="text-white font-poppins font-bold text-3xl">{step.letter}</span>
+                  </div>
+                  <h3 className="heading-md text-vanguardia-green mb-4">{step.title}</h3>
+                  <p className="body-text text-gray-300 mb-2">{step.description}</p>
                 </div>
-                <h3 className="heading-md text-vanguardia-green mb-4">{step.title}</h3>
-                <p className="body-text text-gray-300 mb-2">{step.description}</p>
-                <div className="bg-vanguardia-light/5 border border-gray-700 rounded-lg p-4">
+                <div className="bg-vanguardia-light/5 border border-gray-700 rounded-lg p-4 mt-4">
                   <p className="text-sm font-semibold text-white">{step.result}</p>
                 </div>
               </div>
