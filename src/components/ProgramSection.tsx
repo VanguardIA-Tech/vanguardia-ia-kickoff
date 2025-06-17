@@ -1,7 +1,7 @@
 export const ProgramSection = () => {
   const features = [
     "Workshops didáticos & Hotseats aplicados",
-    "Implantação de 5 Agentes IPCs personalizado + 2 Agentes Autônomos", 
+    "Implantação de 5 Agentes IPCs personalizados + 2 Agentes Autônomos", 
     "Dashboards de métricas e suporte dedicado",
     "Treinamos todos – dos sócios aos estagiários – para \"dirigir\" a IA com segurança"
   ];
