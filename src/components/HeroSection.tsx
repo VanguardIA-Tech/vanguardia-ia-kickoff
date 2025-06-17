@@ -1,18 +1,16 @@
-
 import { ArrowDown } from 'lucide-react';
-
 export const HeroSection = () => {
   const scrollToNext = () => {
     const nextSection = document.getElementById('section-2');
-    nextSection?.scrollIntoView({ behavior: 'smooth' });
+    nextSection?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
-
-  return (
-    <section className="min-h-screen flex items-center justify-center section-snap relative bg-gradient-to-br from-vanguardia-dark via-gray-900 to-vanguardia-dark">
+  return <section className="min-h-screen flex items-center justify-center section-snap relative bg-gradient-to-br from-vanguardia-dark via-gray-900 to-vanguardia-dark">
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-up">
           <div className="mb-8">
-            <span className="mono-text text-vanguardia-green text-xl tracking-wider">1 ·</span>
+            <span className="mono-text text-xl tracking-wider text-emerald-300">Silveira, Athias, Soriano de Mello, Bentes, Lobato &amp; Scaff - Advogados</span>
           </div>
           
           <h1 className="heading-xl mb-8 bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">
@@ -32,13 +30,8 @@ export const HeroSection = () => {
         </div>
       </div>
       
-      <button 
-        onClick={scrollToNext}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-vanguardia-green hover:text-emerald-400 transition-colors animate-bounce"
-        aria-label="Scroll para próxima seção"
-      >
+      <button onClick={scrollToNext} className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-vanguardia-green hover:text-emerald-400 transition-colors animate-bounce" aria-label="Scroll para próxima seção">
         <ArrowDown size={32} />
       </button>
-    </section>
-  );
+    </section>;
 };
