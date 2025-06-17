@@ -32,7 +32,7 @@ export const StatsSection = () => {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="bg-gradient-to-br from-vanguardia-green/20 to-emerald-500/20 border border-vanguardia-green/30 rounded-2xl p-12 hover:scale-105 transition-transform duration-300">
-                <div className="mono-text text-6xl md:text-7xl font-bold text-vanguardia-green mb-6">
+                <div className="mono-text text-4xl md:text-5xl font-bold text-vanguardia-green mb-6">
                   {stat.number}
                 </div>
                 <p className="body-text text-gray-200 mb-2">{stat.label}</p>
