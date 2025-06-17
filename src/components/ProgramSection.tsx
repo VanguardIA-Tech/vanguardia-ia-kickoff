@@ -1,4 +1,5 @@
 
+
 export const ProgramSection = () => {
   const features = [
     "Workshops didáticos & Hotseats aplicados",
@@ -38,3 +39,4 @@ export const ProgramSection = () => {
     </section>
   );
 };
+
