@@ -1,12 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { ProgressBar } from '@/components/ProgressBar';
+import { NavigationControls } from '@/components/NavigationControls';
+import { HeroSection } from '@/components/HeroSection';
+import { WhySection } from '@/components/WhySection';
+import { StatsSection } from '@/components/StatsSection';
+import { ProgramSection } from '@/components/ProgramSection';
+import { MethodologySection } from '@/components/MethodologySection';
+import { AgentsSection } from '@/components/AgentsSection';
+import { TimelineSection } from '@/components/TimelineSection';
+import { ROISection } from '@/components/ROISection';
+import { DeliverablesSection } from '@/components/DeliverablesSection';
+import { ParticipationSection } from '@/components/ParticipationSection';
+import { MetricsSection } from '@/components/MetricsSection';
+import { QASection } from '@/components/QASection';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-vanguardia-dark text-white overflow-x-hidden">
+      <ProgressBar />
+      <NavigationControls />
+      
+      <HeroSection />
+      <WhySection />
+      <StatsSection />
+      <ProgramSection />
+      <MethodologySection />
+      <AgentsSection />
+      <TimelineSection />
+      <ROISection />
+      <DeliverablesSection />
+      <ParticipationSection />
+      <MetricsSection />
+      <QASection />
     </div>
   );
 };
