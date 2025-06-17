@@ -28,7 +28,7 @@ export const StatsSection = () => {
           {stats.map((stat, index) => (
             <div 
               key={index}
-              className="text-center animate-fade-up"
+              className="text-center animate-fade-up min-h-[360px]"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="bg-gradient-to-br from-vanguardia-green/20 to-emerald-500/20 border border-vanguardia-green/30 rounded-2xl p-12 hover:scale-105 transition-transform duration-300">
